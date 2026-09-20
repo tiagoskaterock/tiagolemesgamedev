@@ -134,7 +134,7 @@
                         </div>
                     </div>
 
-                    <a href="downloads/windows/hazard-cars.exe"
+                    <a href="downloads/windows/hazard-cars.zip"
                        class="project-link"
                        title="Donwnload for Windows">
                         ↓
