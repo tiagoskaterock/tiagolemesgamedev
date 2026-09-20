@@ -134,10 +134,9 @@
                         </div>
                     </div>
 
-                    <a href="downloads/linux/hazard-cars.x86_64"
+                    <a href="downloads/windows/hazard-cars.exe"
                        class="project-link"
-                       download
-                       title="Donwnload for Linux">
+                       title="Donwnload for Windows">
                         ↓
                     </a>
 
