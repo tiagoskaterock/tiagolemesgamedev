@@ -142,6 +142,34 @@
 
                 </article>
 
+                <article class="project">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-info">
+                        <h3>Hazard Cars (Android)</h3>
+
+                        <p>
+                            An arcade racing game inspired by 90's series like Daytona USA, Super Mario Kart and The Need For Speed
+                        </p>
+
+                        <div class="tags">
+                            <span>Godot</span>
+                            <span>GDScript</span>
+                            <span>Game Dev</span>
+                            <span>Blender</span>
+                            <span>Racing</span>
+                        </div>
+                    </div>
+
+                    <a href="downloads/android/hazardcars.apk"
+                       class="project-link"
+                       title="Donwnload for Android">
+                        ↓
+                    </a>
+
+                </article>
+
             </div>
 
         </section>
