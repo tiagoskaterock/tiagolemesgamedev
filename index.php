@@ -85,6 +85,7 @@
 
             <div class="project-list">
 
+                <!--
                 <article class="project">
 
                     <div class="project-number">01</div>
@@ -113,7 +114,9 @@
                     </a>
 
                 </article>
+                -->
 
+                <!--
                 <article class="project">
 
                     <div class="project-number">01</div>
@@ -141,6 +144,7 @@
                     </a>
 
                 </article>
+                -->
 
                 <article class="project">
 
@@ -162,9 +166,10 @@
                         </div>
                     </div>
 
-                    <a href="downloads/android/hazardcars.apk"
+                    <a disabled
+                        href="#"
                        class="project-link"
-                       title="Donwnload for Android">
+                       title="Very Soon on Google Play">
                         ↓
                     </a>
 
