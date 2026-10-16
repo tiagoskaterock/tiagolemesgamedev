@@ -167,9 +167,9 @@
                     </div>
 
                     <a disabled
-                        href="#"
+                        href="downloads/android/hazardcars.apk"
                        class="project-link"
-                       title="Very Soon on Google Play">
+                       title="Download Hazard Cars for Android">
                         ↓
                     </a>
 
