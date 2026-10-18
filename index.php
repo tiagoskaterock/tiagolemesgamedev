@@ -85,7 +85,7 @@
 
             <div class="project-list">
 
-                <!--
+                
                 <article class="project">
 
                     <div class="project-number">01</div>
@@ -114,9 +114,8 @@
                     </a>
 
                 </article>
-                -->
-
-                <!--
+                
+                
                 <article class="project">
 
                     <div class="project-number">01</div>
@@ -144,7 +143,7 @@
                     </a>
 
                 </article>
-                -->
+                
 
                 <article class="project">
 
