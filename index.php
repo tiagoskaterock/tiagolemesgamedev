@@ -84,14 +84,14 @@
             </div>
 
             <div class="project-list">
-
+                
                 
                 <article class="project">
 
                     <div class="project-number">01</div>
 
                     <div class="project-info">
-                        <h3>Hazard Cars (Linux)</h3>
+                        <h3>Hazard Cars</h3>
 
                         <p>
                             An arcade racing game inspired by 90's series like Daytona USA, Super Mario Kart and The Need For Speed
@@ -106,71 +106,13 @@
                         </div>
                     </div>
 
-                    <a href="downloads/linux/hazard-cars.x86_64"
-                       class="project-link"
-                       download
-                       title="Donwnload for Linux">
+                    <button type="button"
+                            class="project-link"
+                            id="open-download"
+                            title="Download Hazard Cars"
+                            aria-haspopup="dialog">
                         ↓
-                    </a>
-
-                </article>
-                
-                
-                <article class="project">
-
-                    <div class="project-number">01</div>
-
-                    <div class="project-info">
-                        <h3>Hazard Cars (Windows)</h3>
-
-                        <p>
-                            An arcade racing game inspired by 90's series like Daytona USA, Super Mario Kart and The Need For Speed
-                        </p>
-
-                        <div class="tags">
-                            <span>Godot</span>
-                            <span>GDScript</span>
-                            <span>Game Dev</span>
-                            <span>Blender</span>
-                            <span>Racing</span>
-                        </div>
-                    </div>
-
-                    <a href="downloads/windows/hazard-cars.zip"
-                       class="project-link"
-                       title="Donwnload for Windows">
-                        ↓
-                    </a>
-
-                </article>
-                
-
-                <article class="project">
-
-                    <div class="project-number">01</div>
-
-                    <div class="project-info">
-                        <h3>Hazard Cars (Android)</h3>
-
-                        <p>
-                            An arcade racing game inspired by 90's series like Daytona USA, Super Mario Kart and The Need For Speed
-                        </p>
-
-                        <div class="tags">
-                            <span>Godot</span>
-                            <span>GDScript</span>
-                            <span>Game Dev</span>
-                            <span>Blender</span>
-                            <span>Racing</span>
-                        </div>
-                    </div>
-
-                    <a disabled
-                        href="downloads/android/hazardcars.apk"
-                       class="project-link"
-                       title="Download Hazard Cars for Android">
-                        ↓
-                    </a>
+                    </button>
 
                 </article>
 
@@ -239,6 +181,8 @@
         </div>
 
     </footer>
+
+    <?php include('includes/modal.php') ?>
 
 </body>
 </html>

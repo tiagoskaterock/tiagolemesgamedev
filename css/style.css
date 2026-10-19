@@ -574,3 +574,136 @@ footer a:hover {
 .support-link span:last-child {
     font-size: 1.3rem;
 }
+
+/* -------------------------
+   DOWNLOAD MODAL
+------------------------- */
+
+/* O <button> só precisa herdar fonte/cor; a borda e o hover
+   continuam vindo do .project-link original */
+button.project-link {
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+}
+
+
+.modal {
+    /* o reset global (* { margin: 0 }) quebra o centralização do <dialog> */
+    margin: auto;
+
+    width: min(440px, 90vw);
+    padding: 32px;
+
+    background: var(--dark);
+    color: var(--white);
+
+    border: 1px solid var(--line);
+}
+
+
+.modal::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px);
+}
+
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+
+.modal-header h3 {
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+
+
+.modal-close {
+    width: 36px;
+    height: 36px;
+
+    background: transparent;
+    border: 1px solid var(--line);
+
+    color: var(--gray);
+    font: inherit;
+    cursor: pointer;
+
+    transition: 0.25s ease;
+}
+
+
+.modal-close:hover {
+    background: var(--orange);
+    border-color: var(--orange);
+    color: var(--black);
+}
+
+
+.modal-text {
+    color: var(--gray);
+    font-size: 14px;
+
+    margin-bottom: 28px;
+}
+
+
+.modal-links {
+    border-top: 1px solid var(--line);
+}
+
+
+.modal-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid var(--line);
+
+    transition: 0.25s ease;
+}
+
+
+.modal-link span:last-child {
+    color: var(--orange);
+}
+
+
+.modal-link:hover {
+    color: var(--orange);
+    padding-left: 10px;
+}
+
+
+.modal-link.disabled {
+    opacity: 0.35;
+    pointer-events: none;
+}
+
+
+.modal-link small {
+    color: var(--gray);
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+
+.modal-link .platform {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
+.modal-link svg {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
