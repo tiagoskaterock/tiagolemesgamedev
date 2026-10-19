@@ -9,6 +9,16 @@
 
     <div class="modal-links">
 
+        <a href="hazard-cars-web/" target="_blank" rel="noopener" class="modal-link" title="Play Hazard Cars in your browser">
+            <span class="platform">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l11-6.86a1 1 0 0 0 0-1.7l-11-6.86A1 1 0 0 0 8 5.14z"/>
+                </svg>
+                Play on Web
+            </span>
+            <span>↗</span>
+        </a>
+
         <a href="downloads/linux/hazard-cars.x86_64" download class="modal-link" title="Download Hazard Cars for Linux">
             <span class="platform">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
